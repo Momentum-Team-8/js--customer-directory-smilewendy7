@@ -1,0 +1,23 @@
+*{
+    box-sizing:border-box;
+    margin:5px;
+    padding:4px;
+}
+
+
+.customer_profile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+#email-address{
+    color: gray;
+}
+
+.name-card>img{
+
+     border-radius: 50%
+}
