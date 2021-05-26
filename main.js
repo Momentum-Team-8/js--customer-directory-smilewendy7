@@ -93,11 +93,12 @@ nameCard.appendChild(emailAdress)
 console.log(person.location.street.number)
 const adress = document.createElement('p')
 adress.setAttribute('id', 'Address')
-adress.innerText = person.location.street.number + " " + person.location.street.name + " " +
+adress.innerText = person.location.street.number + " " + person.location.street.name + " \n" +
                     person.location.city + " " + nameToAbbr(person.location.state) + " " + 
                     person.location.postcode
 console.log(adress)
 nameCard.appendChild(adress)
+//back slash/n   \n
 
 //DOB 
 const dob = document.createElement('p')
